@@ -7,7 +7,7 @@ const { Project } = require("./../models/modelbuilder");
 
 const service = {
     register: async(userFE) => {
-        const existentUser = await User.findOne({ //cautam user care are email-ul transmis din front-end
+        const existentUser = await User.findOne({ 
             where: { email: userFE.email }
         });
 
