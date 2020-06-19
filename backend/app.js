@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const PORT = 8027;
+const PORT = 3000;
 
 const router = require('./routes/routes');
 const app = express();
